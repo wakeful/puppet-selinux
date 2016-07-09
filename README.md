@@ -5,12 +5,12 @@
 - rhel based distribution
 
 ## Usage
-<pre>
+```puppet
 class { 'selinux':
   mode => 'enforcing',
   type => 'targeted',
 }
-</pre>
+```
 
 ### Parameters
 - *mode*
